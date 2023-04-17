@@ -44,6 +44,14 @@ TrajectoryPlannerROS:
   escape_reset_dist: 0.1
   escape_reset_theta: 0.1
 
+
+BaseGlobalPlanner:
+  allow_unknown: false
+  use_djkstra: false
+  use_quadratic: true
+  use_grid_path: false
+  old_navfn_behavior: false
+
 DWAPlannerROS:
   # Robot configuration parameters  
   acc_lim_x: 2.5
