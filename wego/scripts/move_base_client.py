@@ -25,13 +25,13 @@ if __name__  == '__main__':
     waypoint1.orientation.w =0.999998402990332
 
     waypoint2=MoveBaseGoal().target_pose.pose
-    waypoint2.position.x = 5.5222533811931696
-    waypoint2.position.y = -0.143647845908984
+    waypoint2.position.x = -1.6210173196500213
+    waypoint2.position.y = -3.2794229028262336
     waypoint2.position.z = 0
     waypoint2.orientation.x =0
     waypoint2.orientation.y =0
-    waypoint2.orientation.z =-0.7739058216545189
-    waypoint2.orientation.w =0.6333007020438584
+    waypoint2.orientation.z =0.28469856583907704
+    waypoint2.orientation.w =0.9586170907141041
     
     waypoint3=MoveBaseGoal().target_pose.pose
     waypoint3.position.x = 5.473832417208267
